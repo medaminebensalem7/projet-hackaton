@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@400&display=swap');
+* {
+    font-family: Signika;
+}
+.lkol{
+    height: 100vh;
+    background-color: #0083cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.image{
+    width: 35%;
+    height: 100%;
+    background:linear-gradient( #0681c3,#ffffff);
+    border-radius: 40px  0px 0px 40px;
+}
+.img1{
+    position: absolute;
+    top: 110px;
+    left: 170px;
+    width: 200px;
+}
+.img2{
+    animation: hello 3s   ease-in;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 325px;
+}
+@keyframes hello{
+    from{
+    left: 0;
+    }
+    to{
+     left:325px
+    }
+
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.wahda{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+h1{
+    color: #0083cb;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-size: 80px;
+    font-family:Signika;
+
+    
+}
+label{
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #042a3e;
+}
+input{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #0083cb;
+   padding-left: 15px;
+}
+button{
+    width:30%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: #0083cb;
+    border: none;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.5;
+}
